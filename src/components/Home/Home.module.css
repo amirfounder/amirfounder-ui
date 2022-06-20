@@ -1,3 +1,16 @@
+.a {
+  text-decoration: none;
+  color: #5E17EB;
+}
+
+.a:visited:hover, .a:hover {
+  color: #38B6FF;
+}
+
+.a:visited {
+  color: #5271FF;
+}
+
 .contained {
   width: 840px;
 }
