@@ -1,0 +1,46 @@
+.header {
+  min-height: 80px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  background-color: #f4f4f4;
+}
+
+.contained {
+  min-width: 840px;
+}
+
+.container {
+  display: grid;
+  justify-content: center;
+}
+
+.headerContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.headerColumn {
+  display: grid;
+  align-items: center;
+}
+
+.headerColumn:nth-child(1) {
+  justify-content: start;
+}
+
+.headerColumn:nth-child(2) {
+  justify-content: end;
+}
+
+.navMenuList {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 3rem;
+}
+
+.hero {
+  display: grid;
+  justify-content: center;
+}
