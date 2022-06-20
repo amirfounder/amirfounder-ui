@@ -1,18 +1,18 @@
+.contained {
+  width: 840px;
+}
+
+.container {
+  display: grid;
+  justify-content: center;
+}
+
 .header {
   min-height: 80px;
   display: grid;
   align-items: center;
   justify-content: center;
   background-color: #f4f4f4;
-}
-
-.contained {
-  min-width: 840px;
-}
-
-.container {
-  display: grid;
-  justify-content: center;
 }
 
 .headerContainer {
@@ -38,9 +38,4 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 3rem;
-}
-
-.hero {
-  display: grid;
-  justify-content: center;
 }

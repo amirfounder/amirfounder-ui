@@ -8,19 +8,21 @@ export const Home = () => {
       <div className={styles.header}>
         <div className={`${styles.headerContainer} ${styles.contained}`}>
           <div className={styles.headerColumn} style={{userSelect: 'none'}}>
-            <div style={{fontWeight: '600', fontSize: '20px'}}>
+            <div style={{fontSize: '20px'}}>
               <span style={{color: '#38B6FF', fontWeight: '800'}} >&#60;</span>
-              <span style={{color: '#333'}}>Amir</span>
+              <span style={{color: '#333333', fontWeight: '600'}}>Amir</span>
               <span style={{color: '#5271FF', fontWeight: '800'}}>/</span>
               <span style={{color: '#5E17EB', fontWeight: '800'}}>&#62;</span>
             </div>
           </div>
           <div className={styles.headerColumn}>
-            Software Engineer II
+            <div>
+              Software Engineer II
+            </div>
           </div>
         </div>
       </div>
-      <div className={styles.hero}>
+      <div className={styles.container}>
         <div style={{padding: '100px 0px 0px 0px'}} className={`${styles.heroContainer} ${styles.contained}`}>
           <h1>Amir Sharapov - Backend Software Engineer</h1>
           <p>
