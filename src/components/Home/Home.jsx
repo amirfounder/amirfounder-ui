@@ -45,6 +45,7 @@ export const Home = () => {
           <ul>
             <li><a className={styles.a} target='_blank' href="/go/linkedin">LinkedIn</a></li>
             <li><a className={styles.a} target='_blank' href="/go/github">GitHub</a></li>
+            <li><a className={styles.a} target='_blank' href="/go/twitch">Twitch</a></li>
           </ul>
         </div>
       </div>
