@@ -27,7 +27,7 @@ export const Home = () => {
           <h1>Amir Sharapov - Backend Software Engineer</h1>
           <p>
             My name is Amir Sharapov and I am a Software Engineer II with 1+ years of industry experience developing full-stack and backend software.
-            My goal is to be a part of / lead teams developing AI-based applications to solve global problems.
+            My goal is to lead teams developing AI-based applications to solve global problems.
           </p>
         </div>
       </div>
