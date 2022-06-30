@@ -21,7 +21,7 @@
 }
 
 .header {
-  min-height: 80px;
+  min-height: 100px;
   display: grid;
   align-items: center;
   justify-content: center;

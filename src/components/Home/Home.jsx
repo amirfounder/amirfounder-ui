@@ -8,15 +8,17 @@ export const Home = () => {
       <div className={styles.header}>
         <div className={`${styles.headerContainer} ${styles.contained}`}>
           <div className={styles.headerColumn} style={{userSelect: 'none'}}>
-            <div style={{fontSize: '20px'}}>
-              <span style={{color: '#38B6FF', fontWeight: '700'}} >&#60;</span>
-              <span style={{color: '#333333', fontWeight: '400'}}>Amir</span>
-              <span style={{color: '#5271FF', fontWeight: '700'}}>/</span>
-              <span style={{color: '#5E17EB', fontWeight: '700'}}>&#62;</span>
-            </div>
+            <img
+              draggable={false}
+              src='../../assets/favicon.png'
+              alt='logo'
+              style={{
+                width: '60px'
+              }}
+            />
           </div>
           <div className={styles.headerColumn}>
-            <div>
+            <div style={{fontSize: '24px', fontWeight: 300}}>
               Software Engineer II
             </div>
           </div>
